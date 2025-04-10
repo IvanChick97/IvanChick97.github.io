@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/main.js" defer></script>
+  <title>Booxa - Регистрация</title>
+</head>
+
+<body>
+  <header>
+    <div class="nav">
+        <div class="nav__items">
+          <div class="nav__logo">
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+          </div>
+          <div class="nav__menu">
+            <ul class="menu__items">
+              <a href="contact.html">
+                <li class="item">
+                  Контакты
+                </li>
+              </a>
+              <a href="about.html">
+                <li class="item">
+                  О нас
+                </li>
+              </a>
+              <a href="delivery.html">
+                <li class="item">
+                  Доставка
+                </li>
+              </a>
+            </ul>
+          </div>
+          <div class="nav__button">
+            <ul class="menu__buttons">
+              <li class="buttons__item">
+                <a href="basket.html"><img src="img/card.svg" alt=""></a>
+              </li>
+              <li class="buttons__item">
+                <button onclick="togglePanel()">
+                  <img src="img/profile.svg" alt="">
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+  </header>
+  <div class="slide-panel-header" id="slide-panel">
+    <a href="login.html" class="slide-panel-link">
+      <p>Войти</p>
+    </a>
+    <a href="register.html" class="slide-panel-link">
+      <p>Регистрация</p>
+    </a>
+  </div>
+  <main>
+    <section class="section-register">
+      <div class="container">
+        <div class="block-register">
+          <p class="text-register-title">Регистрация</p>
+          <div class="block-input">
+            <input type="text" placeholder="почта" class="input-register">
+            <input type="password" placeholder="пароль" class="input-register">
+            <input type="password" placeholder="повторить пароль" class="input-register">
+          </div>
+          <button class="button-register">Зарегистрироваться</button>
+          <p class="text-register">Есть аккаунт? <span><a href="login.html">Войдите</a></span></p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-element">
+      <div class="footer-content">
+        <div class="footer-nav">
+          <ul class="footer-nav-list">
+            <a href="contact.html">
+              <li class="footer-nav-item">Контакты</li>
+            </a>
+            <a href="about.html">
+              <li class="footer-nav-item">О нас</li>
+            </a>
+            <a href="delivery.html">
+              <li class="footer-nav-item">Доставка</li>
+            </a>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <a href="#"><img src="img/instagram.svg" alt=""></a>
+          <a href="#"><img src="img/telegram.svg" alt=""></a>
+        </div>
+      </div>
+      <div class="footer-booxa">
+        <p>© 2025 Booxa</p>
+      </div>
+    </div>
+</footer>
+</body>
+
+</html>
